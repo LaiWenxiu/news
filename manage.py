@@ -4,6 +4,7 @@ from flask import Flask,session
 from flask.ext.sqlalchemy import SQLAlchemy
 # 可以用来指定session的存储位置
 from flask_session import Session
+from flask_script import Manager
 
 
 class Config(object):
@@ -45,7 +46,7 @@ Session(app)
 def index():
     session['name'] = 'haha'
     return 'index'
-
+manager = Manager(app)
 
 if __name__ == '__main__':
-    app.run()
+    manager.run()
