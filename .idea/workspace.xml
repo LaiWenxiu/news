@@ -42,8 +42,8 @@
       <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="262">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -392,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528108844496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="集成flask_script的代码">
+      <created>1528109246349</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528109246349</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -430,7 +437,8 @@
     <MESSAGE value="项目的配置&amp;&amp;数据库的配置" />
     <MESSAGE value="redis的配置&amp;&amp;设置csrfprotect保护" />
     <MESSAGE value="session的配置&amp;&amp;测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="session的配置&amp;&amp;测试" />
+    <MESSAGE value="集成flask_script的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成flask_script的代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -479,8 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="262">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>

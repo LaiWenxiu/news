@@ -5,6 +5,7 @@ from flask.ext.sqlalchemy import SQLAlchemy
 # 可以用来指定session的存储位置
 from flask_session import Session
 from flask_script import Manager
+from flask_migrate import Migrate,MigrateCommand
 
 
 class Config(object):
@@ -47,6 +48,11 @@ def index():
     session['name'] = 'haha'
     return 'index'
 manager = Manager(app)
+# 将app与db连接起来
+Migrate(app,db)
+# 将迁移命令添加到manager中
+manager.add_command('db',MigrateCommand)
+
 
 if __name__ == '__main__':
     manager.run()
